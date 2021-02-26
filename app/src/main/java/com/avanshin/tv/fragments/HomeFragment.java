@@ -421,13 +421,13 @@ public class HomeFragment extends Fragment {
         }
 
         //popular stars data
-        if (homeContent.getPopularStarsList() != null) {
-            if (homeContent.getPopularStarsList().size() > 0) {
-                popular_stars_layout.setVisibility(View.VISIBLE);
-                popularStarsList.addAll(homeContent.getPopularStarsList());
-                popularStarAdapter.notifyDataSetChanged();
-            }
-        }
+//        if (homeContent.getPopularStarsList() != null) {
+//            if (homeContent.getPopularStarsList().size() > 0) {
+//                popular_stars_layout.setVisibility(View.VISIBLE);
+//                popularStarsList.addAll(homeContent.getPopularStarsList());
+//                popularStarAdapter.notifyDataSetChanged();
+//            }
+//        }
 
         //tv channel data
         if (homeContent.getFeaturedTvChannel().size() > 0) {
