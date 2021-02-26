@@ -8,12 +8,12 @@
     //startapp
     <string name="startapp_app_id" translatable="false">209411604</string>
 
-    <string name="app_name">OXOO</string>
+    <string name="app_name">AvanshinTV</string>
     <!--app_title for main navigation & home title-->
-    <string name="app_title">OXOO - Live TV &amp; Movie</string>
+    <string name="app_title">Avanshin TV</string>
     <string name="app_version">1.3.4</string>
-    <string name="contact_email">info@spagreen.net</string>
-    <string name="copyright_text">Copyright @ Spagreen, All right reserved</string>
+    <string name="contact_email">avanshin06@gmail.com</string>
+    <string name="copyright_text">Copyright @ AvanshinTV, All right reserved</string>
     <!-- App -->
     <string name="featured_tv_channels">Featured Tv Channel</string>
     <string name="latest_movie">Latest Movies</string>

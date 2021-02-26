@@ -14,7 +14,7 @@ public class AppConfig {
     public static final String API_SERVER_URL = getApiServerUrl();
     public static final String API_KEY = getApiKey();
     //copy your terms url from php admin dashboard & paste below
-    public static final String TERMS_URL = "http://demo.redtvlive.com/oxoo/v13/terms/";
+    public static final String TERMS_URL = "https://admin.avanshintv.com/terms/";
     public static final String ENVATO_PURCHASE_CODE = getPurchaseCode();
     public static final String YOUTUBE_API_KEY = getYouTubeApiKey();
 
@@ -35,11 +35,11 @@ public class AppConfig {
 
     // First, you have to configure firebase to enable facebook, phone and google login
     // facebook authentication
-    public static final boolean ENABLE_FACEBOOK_LOGIN = true;
+    public static final boolean ENABLE_FACEBOOK_LOGIN = false;
 
     //Phone authentication
-    public static final boolean ENABLE_PHONE_LOGIN = true;
+    public static final boolean ENABLE_PHONE_LOGIN = false;
 
     //Google authentication
-    public static final boolean ENABLE_GOOGLE_LOGIN = true;
+    public static final boolean ENABLE_GOOGLE_LOGIN = false;
 }

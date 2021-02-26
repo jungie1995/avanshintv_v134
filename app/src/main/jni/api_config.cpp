@@ -2,9 +2,9 @@
 #include <string>
 
 
-std::string SERVER_URL = "http://demo.redtvlive.com/oxoo/v13/rest-api/";
-std::string API_KEY = "spagreen";
-std::string PURCHASE_CODE = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+std::string SERVER_URL = "https://admin.avanshintv.com/rest-api/";
+std::string API_KEY = "1b01608a42cc468d2a15ad98";
+std::string PURCHASE_CODE = "13098c3b-6419-40f6-8005-df1a286e7c21";
 std::string YOUTUBE_API_KEY = "xxxxxxxxxxxxxxxxxxxx";
 
 extern "C" JNIEXPORT jstring JNICALL
