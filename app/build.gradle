@@ -25,7 +25,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
     defaultConfig {
-        applicationId "com.oxoo.spagreen"
+        applicationId "com.avanshin.tv"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 34
@@ -34,7 +34,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         manifestPlaceholders = [
-                onesignal_app_id               : 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+                onesignal_app_id               : '88e497f8-3eed-4f7c-a6b9-e311679f5678',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: 'REMOTE'
         ]

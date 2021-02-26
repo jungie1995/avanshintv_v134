@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.oxoo.spagreen"
+    package="com.avanshin.tv"
     tools:ignore="MissingLeanbackLauncher">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name=".utils.MyAppClass"
+        android:name="com.avanshin.tv.utils.MyAppClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -27,12 +27,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".RazorPayActivity" />
-        <activity android:name=".SearchActivity" />
+        <activity android:name="com.avanshin.tv.RazorPayActivity" />
+        <activity android:name="com.avanshin.tv.SearchActivity" />
         <activity
-            android:name=".PapalPaymentActivity"
+            android:name="com.avanshin.tv.PapalPaymentActivity"
             android:theme="@style/AppTheme.Nobar" />
-        <activity android:name=".WebViewActivity" />
+        <activity android:name="com.avanshin.tv.WebViewActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -70,44 +70,44 @@
             </intent-filter>
         </activity> <!-- facebook end -->
         <activity
-            android:name=".TermsActivity"
+            android:name="com.avanshin.tv.TermsActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".ReplyActivity"
+            android:name="com.avanshin.tv.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.avanshin.tv.ProfileActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".PassResetActivity"
+            android:name="com.avanshin.tv.PassResetActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".SearchResultActivity"
+            android:name="com.avanshin.tv.SearchResultActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.avanshin.tv.SignUpActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.avanshin.tv.LoginActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".DetailsActivity"
+            android:name="com.avanshin.tv.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:windowSoftInputMode="adjustPan"
             android:theme="@style/AppTheme.NoActionBar" />
         <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.avanshin.tv.MainActivity"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.avanshin.tv.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.avanshin.tv.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -116,26 +116,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ItemMovieActivity"
+            android:name="com.avanshin.tv.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ItemTVActivity"
+            android:name="com.avanshin.tv.ItemTVActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".ItemSeriesActivity"
+            android:name="com.avanshin.tv.ItemSeriesActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".SubscriptionActivity"
+            android:name="com.avanshin.tv.SubscriptionActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".StripePaymentActivity"
+            android:name="com.avanshin.tv.StripePaymentActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".PurchasePlanActivity"
+            android:name="com.avanshin.tv.PurchasePlanActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name=".DownloadActivity"
+            android:name="com.avanshin.tv.DownloadActivity"
             android:theme="@style/AppTheme.Nobar" />
 
     </application>

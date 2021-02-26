@@ -9,7 +9,7 @@ std::string YOUTUBE_API_KEY = "xxxxxxxxxxxxxxxxxxxx";
 
 extern "C" JNIEXPORT jstring JNICALL
 // Change "com_oxoo_spagreen" with your package name. // I.e "com_package_name" // DO NOT CHANGE OTHER THINGS
-Java_com_oxoo_spagreen_AppConfig_getApiServerUrl(
+Java_com_avanshin_tv_AppConfig_getApiServerUrl(
         JNIEnv* env,
         jclass clazz) {
     return env->NewStringUTF(SERVER_URL.c_str());
@@ -18,7 +18,7 @@ Java_com_oxoo_spagreen_AppConfig_getApiServerUrl(
 extern "C" JNIEXPORT jstring JNICALL
 // Change "com_oxoo_spagreen" with your package name. // I.e "com_package_name" // DO NOT CHANGE OTHER THINGS
 
-Java_com_oxoo_spagreen_AppConfig_getApiKey(
+Java_com_avanshin_tv_AppConfig_getApiKey(
         JNIEnv* env,
 jclass clazz) {
 return env->NewStringUTF(API_KEY.c_str());
@@ -27,7 +27,7 @@ return env->NewStringUTF(API_KEY.c_str());
 extern "C" JNIEXPORT jstring JNICALL
 // Change "com_oxoo_spagreen" with your package name. // I.e "com_package_name" // DO NOT CHANGE OTHER THINGS
 
-Java_com_oxoo_spagreen_AppConfig_getPurchaseCode(
+Java_com_avanshin_tv_AppConfig_getPurchaseCode(
         JNIEnv* env,
         jclass clazz) {
     return env->NewStringUTF(PURCHASE_CODE.c_str());
@@ -36,7 +36,7 @@ Java_com_oxoo_spagreen_AppConfig_getPurchaseCode(
 extern "C" JNIEXPORT jstring JNICALL
 // Change "com_oxoo_spagreen" with your package name. // I.e "com_package_name" // DO NOT CHANGE OTHER THINGS
 
-Java_com_oxoo_spagreen_AppConfig_getYouTubeApiKey(
+Java_com_avanshin_tv_AppConfig_getYouTubeApiKey(
         JNIEnv* env,
         jclass clazz) {
     return env->NewStringUTF(YOUTUBE_API_KEY.c_str());
